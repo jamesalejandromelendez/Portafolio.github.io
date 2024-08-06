@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/image.png" type="image/x-icon">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+                <div class="logo">
+                    <a href="#">James</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/Profile2.png" alt="">
+            </div>
+            <h1>James Melendez</h1>
+            <h2>Tecnologo - Analisis y desarrollo de software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/jamesalejandromelendez/ADSO-B" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/qr/I5X7PEYA67M5I1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>  
+    <!-- SECCION SOBRE MI -->
+    <section id="sobre-mi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Mi nombre es <span style="color: #00be95e0; font-weight: bold;">James Alejandro Melendez Rojas</span>. Soy técnico en sistemas y tecnólogo en análisis y desarrollo de software del SENA. Tengo 19 años y me encuentro haciendo mis prácticas en InfracommerceLatam, una empresa completamente dedicada al mundo del ecommerce.</p>
+            <div class="columna">
+                <div class="datos">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Nombre</strong> <span>James Alejandro Melendez Rojas</span> </li>
+                        <li><strong>Documento</strong> 10xxxxxxxx </li>
+                        <li><strong>Cumpleaños</strong> 07/01/2005 </li>
+                        <li><strong>Teléfono</strong> 3052829469 </li>
+                        <li><strong>Email</strong> jamesalejandromelendez@hotmail.com </li>
+                        <li><strong>Dirección</strong> Transv 6B este </li>
+                        <!-- <li><strong>Cargo</strong> <span>Backend</span> </li> -->
+                    </ul>
+                </div>
+                <div class="datos">
+                    <h3>Lenguajes</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <img src="images/lenguajes/python.png" alt="python">
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="interes">
+                            <img src="images/lenguajes/HTML.png" alt="html">
+                            <span>HTML</span>
+                        </div>
+                        <div class="interes">
+                            <img src="images/lenguajes/TS.png" alt="ts">
+                            <span>TYPE SCRIPT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>CSS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Analisis y Desarrollo de Software</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>me sumergí en el fundamento de la programación, donde aprendí diferentes lenguajes como Python, HTML, CSS, SQL. Este conocimiento es fundamental para desarrollar aplicaciones y resolver problemas de manera eficiente. Luego, me enseñaron a analizar y diseñar sistemas. Esto significa que adquirí las habilidades necesarias para entender los requerimientos de un cliente, diseñar soluciones que se ajusten a sus necesidades y crear diagramas y modelos que guíen el desarrollo de software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Support analyst JR</h4>
+                        <span class="casa">Infracommerce Latam</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>me he estado enfocando mas en el analisis y resolucion de problemas tecnicos y operativos que afectan a la plataforma con sus ventas en linea atendiendo y solucionando incidencias reportadas por los usuarios, monitoreando el rendimiento del sitio web, realizando pruebas para identificar errores y coordinar con otros equipos (como desarrollo y operaciones) para implementar mejoras</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="proyectos" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="images/Block_sena.png" alt="">
+                    <div class="overlay">
+                        <h3>Block SENA</h3>
+                        <p>WEB</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/Hotel_p_sena.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>WEB</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/TechINN.png" alt="">
+                    <div class="overlay">
+                        <h3>Hotel SENA</h3>
+                        <p>WEB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto" >
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <div class="col">
+                        <form id="form" class="form" action="" onclick="initializeForm()">
+                            <input name="nombre" type="text" placeholder="Tú Nombre" required>
+                            <input name="telefono" type="text" placeholder="Número telefónico" >
+                            <input name="correo" type="text" placeholder="Dirección de correo" >
+                            <input name="tema" type="text" placeholder="Tema">
+                            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button type="submit" id="button"> Enviar Mensaje <span class="overlay"></span> </button>
+                            <a id="trucazo"></a>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://github.com/jamesalejandromelendez/ADSO-B" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <!-- script que nos permite interactividad con el usuario -->
+    <script src="index.js"></script> 
+
+</html>
